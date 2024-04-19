@@ -13,10 +13,13 @@ const colors = {
 
 const theme = extendTheme({ colors });
 
+console.log("Twitter API Key:", process.env.REACT_APP_TWITTER_API_KEY);
+console.log("Facebook App ID:", process.env.REACT_APP_FB_APP_ID);
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <App />
     </ChakraProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
