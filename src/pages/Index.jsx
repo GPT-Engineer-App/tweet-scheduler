@@ -13,7 +13,7 @@ const Index = () => {
         <Text fontSize="xl" mb={4}>
           A simple React and Chakra UI example.
         </Text>
-        <Button leftIcon={<FaTwitter />} colorScheme="twitter" size="lg">
+        <Button leftIcon={<FaTwitter />} colorScheme="twitter" size="lg" as="a" href="/twitter">
           Connect with Twitter
         </Button>
       </Box>
